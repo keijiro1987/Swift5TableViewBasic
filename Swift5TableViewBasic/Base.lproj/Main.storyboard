@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5zs-tb-ZrE">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -51,7 +51,7 @@
                     <connections>
                         <outlet property="tabelView" destination="lJc-O9-54v" id="KNP-aW-WaV"/>
                         <outlet property="textField" destination="jDb-nS-uOy" id="7XK-Ib-zXl"/>
-                        <segue destination="LFN-EI-swf" kind="show" id="rOG-ZK-RhS"/>
+                        <segue destination="LFN-EI-swf" kind="show" identifier="" id="rOG-ZK-RhS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -61,7 +61,7 @@
         <!--Next View Controller-->
         <scene sceneID="xQP-Zu-AdV">
             <objects>
-                <viewController id="LFN-EI-swf" customClass="NextViewController" customModule="Swift5TableViewBasic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="next" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LFN-EI-swf" customClass="NextViewController" customModule="Swift5TableViewBasic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RJZ-hF-ySN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

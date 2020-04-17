@@ -23,6 +23,13 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         tabelView.dataSource = self
         textField.delegate = self
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.isNavigationBarHidden = true
+        
+    }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return textArray.count
